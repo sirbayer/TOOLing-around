@@ -35,6 +35,7 @@ private:
 	mapStarNode **map;
 	struct compF {bool operator()(mapStarNode& a, mapStarNode& b) { return a.getF() < b.getF(); }};
 	std::priority_queue < mapStarNode, std::vector<mapStarNode>, compF> frontier;
+
 public:
 	// Initializer. Just creates appropriate-sized 2d array of nodes.
 	mapStar(int x, int y) {
