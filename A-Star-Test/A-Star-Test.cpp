@@ -1,5 +1,9 @@
-#include "stdafx.h"
-
+#include <stdio.h>
+#include <tchar.h>
+#include <iostream>
+#include <stdlib.h>
+#include <math.h>
+#include <queue>
 
 
 int main()
